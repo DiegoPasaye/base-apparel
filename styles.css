@@ -135,7 +135,7 @@ button:hover{
         margin-left: 50vw;
     }
 }
-@media only screen and (max-height: 900px) and (max-width: 500px){
+@media only screen and (max-height: 900px) and (max-width: 600px){
     body{
         margin: 0px;
         padding: 0px;
@@ -187,8 +187,7 @@ button:hover{
         margin-left: -20%;
     }
     .error{
-        display: block;
         margin-left: 64%;
-        margin-top: -2.4%;
+        margin-top: -2%;
     }
 }
