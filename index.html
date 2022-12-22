@@ -11,22 +11,22 @@
     <div class="container">
         <div class="left">
             <img class="logo" src="images/logo.svg" alt="Base Apparel logo">
+            <div class="second"></div>
+            
             <div class="tema">
                 <h1 class="title were">WE´RE <br>
                 <h1 class="title">COMING SOON</h1>
             </div>
             <p class="description">Hello fellow shoppers! We´re currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
-            <form action="send">
-                <input type="email" placeholder="Email Addres">
-                <span>
-                    <button type="button"><img src="images/icon-arrow.svg" alt="Send icon"></button>
-                </span>
-            </form>
+            <div class="form">
+                <input class="input" type="email" placeholder="Email Addres">
+                <img class="error" src="images/icon-error.svg" alt="error icon">
+                <button class="boton" onclick="validation()" type="button"><img src="images/icon-arrow.svg" alt="Send icon"></button>
+            </div>
+            <p class="validate">Please provide a valid email</p>
         </div>
 
-        <div class="right">
-            <img src="images/hero-desktop.jpg" alt="a woman">
-        </div>
+        <div class="right"></div>
     </div>
 </body>
 <script src="main.js"></script>
