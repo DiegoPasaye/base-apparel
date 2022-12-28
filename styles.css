@@ -153,9 +153,9 @@ button:hover{
         display: flex;
         flex-direction: column;
         margin: 0px;
-        width: 100%;
         margin-top: 15%;
         max-width: 80%;
+        margin-left: 0;
     }
     h1{
         font-size: 40px;
@@ -179,11 +179,11 @@ button:hover{
     input{
         width: 80%;
         margin-top: 0vh;
-        height: 5vh;
+        height: 5vw;
         padding-bottom: 5%;
     }
     button{
-        height: 5.4vh;
+        height: 10.5vw;
         width: 20%;
         margin-left: -20%;
     }
